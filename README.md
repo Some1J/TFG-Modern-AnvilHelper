@@ -1,2 +1,3 @@
 # TFG-Modern-AnvilHelper
-This repository will be used for the development of an Anvil Calculator and Quick Solution Assister for the Mod Terrafirmacraft, more specifically TerrafirmaGreg Modern
+I'm using this as a test to make sites and program. If it sucks now it may not suck in the future.
+You can use this repo to hopefully open and host this site on your machine.
