@@ -38,9 +38,10 @@ p{
 }
 
 button{
+    flex-wrap: wrap;
     text-align: center;
     font-family: League Spartan;
-    font-size: 1.2em;
+    font-size: clamp(0.8em,1em,2em);
     color: white;
     height: 110px;
     width:  110px;
@@ -61,6 +62,10 @@ button{
 }
 
 .toggle:hover{
+    background-color: rgb(174, 4, 174);
+}
+
+.toggle:focus{
     background-color: rgb(174, 4, 174);
 }
 
@@ -101,8 +106,13 @@ button{
 }
 
 .minus:hover{
-    background-color: rgb(171, 37, 37);
+    background-color: rgb(171, 37, 37); 
 }
+
+.minus:focus{
+    background-color: rgb(171, 37, 37); 
+}
+
 .minus:active{
     background-color: rgb(108, 0, 0);
     font-size: 1em;
@@ -113,6 +123,10 @@ button{
 }
 
 .plus:hover{
+    background-color: rgb(29, 135, 29);
+}
+
+.plus:focus{
     background-color: rgb(29, 135, 29);
 }
 
@@ -137,6 +151,11 @@ button{
 .help:hover{
     background-color: rgb(141, 141, 141);
 }
+
+.help:focus{
+    background-color: rgb(141, 141, 141);
+}
+
 .help:active{
     background-color: rgb(100, 100, 100);
     font-size: 1.5em;
