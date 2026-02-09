@@ -1,0 +1,173 @@
+
+
+body{
+    margin: 0;
+    background-color: hsl(160, 63%, 81%);
+}
+
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-family: Lexend;
+    font-size: 45px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 25px;
+    color: white;
+}
+
+.display{
+    border-radius: 1em;
+    justify-self: center;
+    width: 150px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.title{
+    
+    background-color: rgb(131, 76, 151);
+    padding: 10px;
+}
+
+button{
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: clamp(0.8em,1em,2em);
+    color: white;
+    height: 110px;
+    width:  110px;
+    border-radius: 10%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+
+.toggle{
+    background-color: purple;
+    border: 5px solid;
+    border-color: black;
+}
+
+.toggle:hover{
+    background-color: rgb(174, 4, 174);
+}
+
+.toggle:focus{
+    background-color: rgb(174, 4, 174);
+}
+
+.toggle:active{
+    background-color: rgb(96, 4, 96);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.boxred{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: hsl(0, 97%, 27%);
+    border-radius: 15px;
+}
+
+
+
+.boxgreen{
+    
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: hsl(123, 39%, 33%);
+    border-radius: 15px;
+}
+
+.minus{
+    background-color: hsl(0, 97%, 27%);
+}
+
+.minus:hover{
+    background-color: rgb(171, 37, 37); 
+}
+
+.minus:focus{
+    background-color: rgb(171, 37, 37); 
+}
+
+.minus:active{
+    background-color: rgb(108, 0, 0);
+    font-size: 1em;
+}
+
+.plus{
+    background-color: hsl(123, 39%, 33%);
+}
+
+.plus:hover{
+    background-color: rgb(29, 135, 29);
+}
+
+.plus:focus{
+    background-color: rgb(29, 135, 29);
+}
+
+.plus:active{
+    background-color: rgb(0, 92, 0);
+    font-size: 1em;
+}
+
+
+.options{
+    display: flex;
+    justify-content: center;
+}
+
+
+.help{
+    background-color: gray;
+    color: black;
+    font-size: 30px;
+}
+
+.help:hover{
+    background-color: rgb(141, 141, 141);
+}
+
+.help:focus{
+    background-color: rgb(141, 141, 141);
+}
+
+.help:active{
+    background-color: rgb(100, 100, 100);
+    font-size: 1.5em;
+}
+
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(131, 76, 151);
+}
+
+img{
+    border-radius: 90%;
+}
